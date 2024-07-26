@@ -1,0 +1,120 @@
+@charset 'utf-8';
+
+.station{
+    margin-top: 96px;
+}
+.title{
+    margin-bottom: 33px;
+    padding-left: 16px;
+    font-size: 48px;
+    border-left: 8px solid #9F1213;
+}
+
+.filter label{
+    margin-right: 16px;
+}
+.filter select{
+    padding: 6px;
+    width: 306px;
+}
+/* station-------------------- */
+
+.station-ul{
+    margin-top: 40px;
+    flex-wrap:wrap;
+}
+
+.station-li{
+    width: 33.3333%;
+    margin-left: -12px;
+    margin-bottom: 48px;
+}
+
+.choices{
+    color:#495057;
+}
+
+.card{
+    border: 1px solid #00000020;
+    margin: 0 12px;
+}
+
+.card-top h2{
+    font-size: 24px;
+    padding: 8px 0;
+    padding-left: 24px;
+    border-bottom: 1px solid #00000020;
+}
+
+.card-bottom-txt{
+    line-height: 1.5;
+    padding: 16px 24px;
+}
+
+.card-bottom-txt .fa-phone,.card-bottom-txt .fa-clock{
+    margin-right: 11px;
+}
+.fa-location-dot{
+    margin-right: 15px;
+}
+
+.card-btn{
+    text-align: center;
+}
+
+.card-btn a{
+    display: block;
+    padding: 16px 0;
+}
+
+/* for station-taipei-1.html--------------------- */
+
+.card-box{
+    width: 40%;
+    margin-left: -12px;
+}
+
+.shop-info{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.map{
+    width: 60%;
+}
+
+
+@media (max-width:576px){
+    .station{
+        padding: 0 13px;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .station-ul{
+        display: block;
+    }
+    .station-li{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .card-bottom-txt{
+        font-size: 20px;
+    }
+    .card-btn{
+        font-size: 19px;
+    }
+
+
+    /* for station-taipei-1.html---------------------- */
+
+    .shop-info{
+        display: block;
+    }
+    .card-box,.map{
+        width: 100%;
+    }
+
+
+}

@@ -1,0 +1,295 @@
+@charset 'utf-8';
+
+
+
+/* banner --------------------------------- */
+
+.banner{
+    background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true) ;
+    background-size: cover;
+}
+
+
+.banner-content{
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    height: 787px;
+}
+
+.banner-h2{
+    font-size: 64px;
+    padding: 16px 0;
+}
+.banner-h3{
+    font-size: 36px;
+}
+
+.banner-btn{
+    margin-top: 4px;
+    padding: 6px 12px;
+}
+
+/* feature --------------------------------- */
+
+.feature-content{
+    padding:80px 0;
+}
+.feature-title{
+    color: #650300;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.feature-ul{
+    margin-top: 24px;
+}
+
+.feature-li{
+    width: 25%;
+}
+
+.feature-card{
+    text-align: center;
+    margin: 0 12px;
+}
+
+.feature-card-header img{
+    padding: 16px;
+}
+
+.feature-card-body{
+    color: #000000;
+    line-height: 1.5;
+}
+
+.feature-card-body h2{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color:#650300;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.feature-card-body p{
+    text-align: left;
+}
+
+/* classical ------------------------------- */
+
+.classical-title{
+    font-size: 48px;
+    padding-top: 80px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.classical-body{
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+.classical-li{
+    text-align: center;
+    /* padding-right: 24px; */
+    width: 33.333%;
+}
+
+.classical-li h3{
+    margin-top: 8px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+/* sub-banner--------------------------------- */
+
+.sub-banner{
+    height: 608px;
+    background-size: cover;
+}
+.sub-banner-title{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 48px;
+}
+.sub-banner-li{
+    width: 50%;
+}
+
+.sub-banner-li{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub-banner-li p{
+    padding:8px 0;
+    font-style: italic;
+}
+
+
+/* recommendation ---------------------------- */
+
+.recom-title{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 48px;
+}
+.recom-ul{
+    padding-bottom: 80px;
+}
+.recom-li{
+    width: 25%;
+}
+
+.recom-card{
+    margin:0 12px;
+    border: 1px solid #DEE2E6;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.recom-card-text{
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    line-height: 1.5;
+}
+
+.time{
+    color:#707070;
+    font-size: 14px;
+}
+
+/* contact -------------------------------------- */
+.contact-form{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.contact-form p{
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.contact-title{
+    padding-top: 80px;
+    padding-bottom: 48px;
+    color: #650300;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.contact-input{
+    display: flex;
+    flex-direction: column;
+    max-width: 636px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align-last: left;
+    margin-bottom: 16px;
+}
+
+.contact-input .input{
+    outline: none;
+    border: 1px solid #000000;
+    height: 36px;
+}
+
+label{
+    margin-bottom: 8px;
+}
+
+textarea{
+    max-width: 636px;
+    height: 136px;
+}
+
+.contact-btn{
+    color: #fff;
+    padding: 16px 176px;
+}
+
+@media (max-width:576px){
+    /* banner------------------------ */
+    .banner{
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
+    }
+    .banner-h2{
+        font-size: 24px;
+    }
+    .banner-h3{
+        font-size: 16px;
+    }
+    /* feature------------------------ */
+    .feature-ul{
+        display: block;
+    }
+    .feature-li{
+        width: 100%;
+    }
+
+    .feature-title{
+        font-size: 24px;
+    }
+
+    /* classical--------------------- */
+    .classical-ul{
+        display: block;
+    }
+    .classical-li{
+        width: 100%;
+    }
+
+    /* sub-banner------------------- */
+    .sub-banner{
+        height: 820px;
+    }
+    .sub-banner-ul{
+        display: block;
+    }
+    .sub-banner-li{
+        width: 100%;
+        padding-bottom: 24px;
+        background-size: contain;
+    }
+    .sub-banner-title{
+        font-size: 24px;
+    }
+    /* recommendation----------------- */
+
+    .recom-ul{
+        display: block;
+    }
+    .recom-li{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .recom-card{
+        width: 348px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-img{
+        text-align: center;
+    }
+    .recom-title{
+        font-size: 24px;
+    }
+    /* .contact---------------------------- */
+    .contact{
+        padding: 0 13px;
+    }
+
+
+
+}
+
+
+

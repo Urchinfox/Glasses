@@ -1,0 +1,40 @@
+@charset 'utf-8';
+
+.qa-sec{
+    padding-bottom: 80px;
+}
+.title{
+    font-size: 48px;
+    margin-top: 96px;
+    margin-bottom: 32px;
+    font-weight: bold;
+    padding-left: 8px;
+    border-left: 8px solid #9F1213;
+}
+
+.question-box{
+    width: 50%;
+}
+
+.question-title{
+    margin-bottom: 24px;
+    font-weight: normal;
+    font-size: 24px;
+}
+.q{
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+.q h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+@media (max-width:576px){
+    .question-box{
+        width: 100%;
+    }
+    .qa-sec{
+        padding: 0 13px;
+    }
+}

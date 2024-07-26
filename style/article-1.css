@@ -1,0 +1,93 @@
+@charset 'utf-8';
+
+.article{
+    margin-top: 24px;
+    margin-bottom: 80px;
+}
+.content{
+    width: 50%;
+    margin-right: 24px;
+}
+
+.filter-tag{
+    margin: 8px 0;
+}
+.filter-tag span{
+    font-size: 24px;
+    font-weight: normal;
+}
+.content-title{
+    margin-bottom: 16px;
+}
+
+.content-title h1{
+    font-size: 48px;
+    line-height: 1.5;
+}
+.content-title p{
+    font-size: 24px;
+}
+
+.frase{
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.frase img{
+    margin-bottom: 8px;
+}
+
+.footer-share{
+    border-bottom: 1px solid #707070;
+    padding: 16px 0;
+    margin-bottom: 24px;
+}
+
+.footer-share p{
+    margin-right: 16px;
+    font-weight: bold;
+}
+.footer-share i{
+    font-size: 16px;
+}
+
+.footer-pages{
+    justify-content: space-between;
+}
+
+.tag{
+    width: 50%;
+}
+
+.tag-title{
+    font-size:32px;
+}
+.tags-group{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.tags-group p{
+    margin-right: 24px;
+    font-weight: bold;
+}
+
+@media (max-width:576px){
+    .tag{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        padding-left:13px;
+    }
+    .content-title h1{
+        font-size: 24px;
+    }
+    .filter-tag span{
+        font-size: 16px;
+    }
+    .content-title p{
+        font-size: 16px;
+    }
+
+}
